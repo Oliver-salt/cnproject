@@ -1,0 +1,251 @@
+/*this will be for anything that is the same in every document*/
+body{
+    margin: 0;
+}
+
+.wrapper{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#title{
+    flex: 2;
+    font-size: 50px;
+    text-align: end;
+    margin: 30px;
+}
+
+nav{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.navbar_button{
+    background-color: #d9dada;
+    padding: 20px 30px;
+    width: 25vw;
+    font-size: 40px;
+    text-align: left;
+    border-color: #868786;
+    border-style: solid;
+}
+
+.navbar_button:hover{
+    background-color: #868786;
+    cursor: pointer;
+    border-color: #d9dada;
+}
+
+* {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    background-color:#8f8f8f;
+    margin: 0%;
+    padding: 0%;
+}
+
+#GQlogo{
+    width: 200px;
+    margin: 50px;
+}
+
+.homepage_title{
+    display: flex;
+    height: 70px;
+    align-items: flex-end;
+    text-align: center;
+    justify-content: center;
+}
+
+.homepage_title h3{
+    font-size: 30px;
+
+}
+
+.magazines{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.photo{
+    width: 35vw;
+    margin: 50px;
+    padding: 12px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.sasha_featured{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 30px;
+}
+
+.div_description{
+    margin: auto;
+    width: 70vw;
+}
+.sasha_description{
+    text-align: center;
+    border: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+.sasha{
+    text-align: center;
+    margin: 5px;
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.first_three{
+    display: flex;
+    justify-content: space-around;
+    height: 700px
+}
+
+.second_two{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fashion_photos{
+    width: 25vw;
+    text-align: center;
+}
+
+.fashion_photos2{
+    width: 500px;
+    text-align: center;
+}
+
+.list_idjump{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 70px;
+    align-items: center;
+}
+
+.list_idjump a{
+    text-decoration: none;
+    color: black;
+}
+.list_idjump button{
+    width: 20vw;
+    height: 58px;
+}
+
+.teleport_button:hover{
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+#title{
+    text-align: center;
+}
+
+.big_box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.list_of_ten{
+    height:70vh;
+    margin: 40px;
+    justify-content: space-evenly;
+    width: 80vw;
+}
+
+.lifestyle_photos{
+    width: 80vw;
+    margin: auto;
+}
+
+.photos_life{
+    width: 600px;
+}
+
+p {
+    width: 500px;
+    margin: auto;
+}
+
+p .paragraph{
+    font-size: 30px;
+}
+
+.paragraph a{
+    color: black;
+    font-style: italic;
+}
+
+.h3title{
+    margin: 40px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0);
+}
+#aboutus{
+    text-align: center;
+    margin: 30px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#about_box{
+    background-color: #d9dada;
+    width: 50vw;
+    margin: auto;
+    border-style: solid;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#spacing{
+    height: 50px;
+}
+.transparent{
+    background-color: rgba(0, 0, 0, 0);
+    margin: 20px;
+}
+
+#entername, #enteremail{
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+}
+
+input {
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: center;
+    align-items: center;
+}
+
+#input{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
